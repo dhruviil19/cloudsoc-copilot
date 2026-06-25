@@ -1,0 +1,29 @@
+[
+  {
+    "cve_id": "CVE-2017-5638",
+    "vendor_project": "Apache",
+    "product": "Struts",
+    "vulnerability_name": "Apache Struts Jakarta Multipart Parser Remote Code Execution",
+    "date_added": "2017-03-10",
+    "required_action": "Apply vendor updates or remove the vulnerable service from exposure.",
+    "notes": "Sample KEV entry for demo vulnerability prioritization. Replace with the live CISA KEV catalog for production use."
+  },
+  {
+    "cve_id": "CVE-2021-41773",
+    "vendor_project": "Apache",
+    "product": "HTTP Server",
+    "vulnerability_name": "Apache HTTP Server Path Traversal and File Disclosure",
+    "date_added": "2021-11-03",
+    "required_action": "Update Apache HTTP Server and review exposure.",
+    "notes": "Sample KEV entry for demo vulnerability prioritization. Replace with the live CISA KEV catalog for production use."
+  },
+  {
+    "cve_id": "CVE-2023-34362",
+    "vendor_project": "Progress",
+    "product": "MOVEit Transfer",
+    "vulnerability_name": "MOVEit Transfer SQL Injection Vulnerability",
+    "date_added": "2023-06-02",
+    "required_action": "Apply vendor updates, review indicators of compromise, and rotate secrets if needed.",
+    "notes": "Sample KEV entry for demo vulnerability prioritization. Replace with the live CISA KEV catalog for production use."
+  }
+]

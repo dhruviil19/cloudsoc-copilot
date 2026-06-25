@@ -1,0 +1,25 @@
+title: Suspicious Web Request
+id: cloudsoc-web-001
+status: experimental
+description: Detects common web reconnaissance and exploitation paths in Apache or Nginx access logs.
+logsource:
+  product: webserver
+  service: access_log
+detection:
+  selection:
+    url|contains:
+      - /.env
+      - /wp-login.php
+      - /phpmyadmin
+      - ../
+      - etc/passwd
+      - union select
+  condition: selection
+fields:
+  - source_ip
+  - url
+  - status
+level: medium
+tags:
+  - attack.reconnaissance
+  - attack.t1595

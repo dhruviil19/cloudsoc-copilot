@@ -1,0 +1,160 @@
+{
+  "Records": [
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {"type": "IAMUser", "userName": "admin@example.com", "arn": "arn:aws:iam::123456789012:user/admin@example.com"},
+      "eventTime": "2026-06-14T10:00:00Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "185.220.101.45",
+      "responseElements": {"ConsoleLogin": "Failure"},
+      "eventID": "aws-fail-001",
+      "recipientAccountId": "aws-account-prod"
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {"type": "IAMUser", "userName": "admin@example.com", "arn": "arn:aws:iam::123456789012:user/admin@example.com"},
+      "eventTime": "2026-06-14T10:00:20Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "185.220.101.45",
+      "responseElements": {"ConsoleLogin": "Failure"},
+      "eventID": "aws-fail-002",
+      "recipientAccountId": "aws-account-prod"
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {"type": "IAMUser", "userName": "admin@example.com", "arn": "arn:aws:iam::123456789012:user/admin@example.com"},
+      "eventTime": "2026-06-14T10:00:40Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "185.220.101.45",
+      "responseElements": {"ConsoleLogin": "Failure"},
+      "eventID": "aws-fail-003",
+      "recipientAccountId": "aws-account-prod"
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {"type": "IAMUser", "userName": "admin@example.com", "arn": "arn:aws:iam::123456789012:user/admin@example.com"},
+      "eventTime": "2026-06-14T10:01:00Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "185.220.101.45",
+      "responseElements": {"ConsoleLogin": "Failure"},
+      "eventID": "aws-fail-004",
+      "recipientAccountId": "aws-account-prod"
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {"type": "IAMUser", "userName": "admin@example.com", "arn": "arn:aws:iam::123456789012:user/admin@example.com"},
+      "eventTime": "2026-06-14T10:01:20Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "185.220.101.45",
+      "responseElements": {"ConsoleLogin": "Failure"},
+      "eventID": "aws-fail-005",
+      "recipientAccountId": "aws-account-prod"
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {"type": "IAMUser", "userName": "admin@example.com", "arn": "arn:aws:iam::123456789012:user/admin@example.com"},
+      "eventTime": "2026-06-14T10:01:40Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "185.220.101.45",
+      "responseElements": {"ConsoleLogin": "Failure"},
+      "eventID": "aws-fail-006",
+      "recipientAccountId": "aws-account-prod"
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {"type": "IAMUser", "userName": "admin@example.com", "arn": "arn:aws:iam::123456789012:user/admin@example.com"},
+      "eventTime": "2026-06-14T10:02:00Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "185.220.101.45",
+      "responseElements": {"ConsoleLogin": "Failure"},
+      "eventID": "aws-fail-007",
+      "recipientAccountId": "aws-account-prod"
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {"type": "IAMUser", "userName": "admin@example.com", "arn": "arn:aws:iam::123456789012:user/admin@example.com"},
+      "eventTime": "2026-06-14T10:02:20Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "185.220.101.45",
+      "responseElements": {"ConsoleLogin": "Failure"},
+      "eventID": "aws-fail-008",
+      "recipientAccountId": "aws-account-prod"
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {"type": "IAMUser", "userName": "admin@example.com", "arn": "arn:aws:iam::123456789012:user/admin@example.com"},
+      "eventTime": "2026-06-14T10:02:40Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "185.220.101.45",
+      "responseElements": {"ConsoleLogin": "Failure"},
+      "eventID": "aws-fail-009",
+      "recipientAccountId": "aws-account-prod"
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {"type": "IAMUser", "userName": "admin@example.com", "arn": "arn:aws:iam::123456789012:user/admin@example.com"},
+      "eventTime": "2026-06-14T10:03:00Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "185.220.101.45",
+      "responseElements": {"ConsoleLogin": "Failure"},
+      "eventID": "aws-fail-010",
+      "recipientAccountId": "aws-account-prod"
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {"type": "IAMUser", "userName": "admin@example.com", "arn": "arn:aws:iam::123456789012:user/admin@example.com"},
+      "eventTime": "2026-06-14T10:04:00Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "185.220.101.45",
+      "responseElements": {"ConsoleLogin": "Success"},
+      "eventID": "aws-success-001",
+      "recipientAccountId": "aws-account-prod"
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {"type": "IAMUser", "userName": "admin@example.com", "arn": "arn:aws:iam::123456789012:user/admin@example.com"},
+      "eventTime": "2026-06-14T10:06:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "CreateAccessKey",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "185.220.101.45",
+      "requestParameters": {"userName": "admin@example.com"},
+      "eventID": "aws-key-001",
+      "recipientAccountId": "aws-account-prod"
+    },
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {"type": "IAMUser", "userName": "admin@example.com", "arn": "arn:aws:iam::123456789012:user/admin@example.com"},
+      "eventTime": "2026-06-14T10:08:00Z",
+      "eventSource": "iam.amazonaws.com",
+      "eventName": "AttachUserPolicy",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "185.220.101.45",
+      "requestParameters": {"userName": "admin@example.com", "policyArn": "arn:aws:iam::aws:policy/AdministratorAccess"},
+      "eventID": "aws-admin-001",
+      "recipientAccountId": "aws-account-prod"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<nmaprun scanner="nmap" args="nmap -sV -oX nmap_scan.xml 10.0.0.20" start="1781433600">
+  <host>
+    <status state="up" reason="syn-ack"/>
+    <address addr="10.0.0.20" addrtype="ipv4"/>
+    <ports>
+      <port protocol="tcp" portid="80">
+        <state state="open" reason="syn-ack"/>
+        <service name="http" product="Apache Struts" version="2.3.31"/>
+      </port>
+      <port protocol="tcp" portid="6379">
+        <state state="open" reason="syn-ack"/>
+        <service name="redis" product="Redis key-value store" version="5.0"/>
+      </port>
+      <port protocol="tcp" portid="22">
+        <state state="open" reason="syn-ack"/>
+        <service name="ssh" product="OpenSSH" version="7.2"/>
+      </port>
+    </ports>
+  </host>
+</nmaprun>

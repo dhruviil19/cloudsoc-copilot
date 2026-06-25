@@ -1,0 +1,19 @@
+title: AWS Access Key Created After Suspicious Login
+id: cloudsoc-aws-002
+status: experimental
+description: Detects AWS IAM access key creation that may indicate cloud persistence after account compromise.
+logsource:
+  product: aws
+  service: cloudtrail
+detection:
+  selection:
+    eventName: CreateAccessKey
+  condition: selection
+fields:
+  - sourceIPAddress
+  - userIdentity.userName
+  - eventTime
+level: high
+tags:
+  - attack.persistence
+  - attack.t1098

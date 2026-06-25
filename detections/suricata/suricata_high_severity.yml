@@ -1,0 +1,23 @@
+title: Suricata High Severity IDS Alert
+id: cloudsoc-suricata-001
+status: experimental
+description: Detects Suricata alerts with high or critical severity.
+logsource:
+  product: suricata
+  service: eve
+detection:
+  selection:
+    event_type: alert
+    alert.severity:
+      - 1
+      - 2
+  condition: selection
+fields:
+  - src_ip
+  - dest_ip
+  - dest_port
+  - alert.signature
+level: high
+tags:
+  - attack.initial_access
+  - attack.t1190

@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+*.db
+cloudsoc.db
+reports/*.md
+reports/*.pdf
+.DS_Store
+.pytest_cache/

@@ -1,0 +1,20 @@
+title: Suricata Port Scan Activity
+id: cloudsoc-suricata-002
+status: experimental
+description: Detects scan-like Suricata signatures that indicate reconnaissance.
+logsource:
+  product: suricata
+  service: eve
+detection:
+  selection:
+    alert.signature|contains: SCAN
+  condition: selection
+fields:
+  - src_ip
+  - dest_ip
+  - dest_port
+  - alert.signature
+level: medium
+tags:
+  - attack.discovery
+  - attack.t1046

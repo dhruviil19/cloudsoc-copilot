@@ -1,0 +1,20 @@
+title: AWS Console Login Failure Burst
+id: cloudsoc-aws-001
+status: experimental
+description: Detects repeated failed AWS console login events from one source IP.
+logsource:
+  product: aws
+  service: cloudtrail
+detection:
+  selection:
+    eventName: ConsoleLogin
+    responseElements.ConsoleLogin: Failure
+  condition: selection
+fields:
+  - sourceIPAddress
+  - userIdentity.userName
+  - eventTime
+level: medium
+tags:
+  - attack.credential_access
+  - attack.t1110

@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: cloudsoc-copilot-backend
+    env: docker
+    plan: free
+    dockerfilePath: ./backend/Dockerfile
+    envVars:
+      - key: DATABASE_URL
+        value: sqlite:///./cloudsoc.db
+      - key: REPORT_DIR
+        value: ./reports
+
+  - type: web
+    name: cloudsoc-copilot-dashboard
+    env: docker
+    plan: free
+    dockerfilePath: ./dashboard/Dockerfile
+    envVars:
+      - key: BACKEND_API_URL
+        value: https://your-backend-service-url

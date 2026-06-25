@@ -1,0 +1,30 @@
+title: AWS Console Login Followed By Access Key Creation
+id: cloudsoc-aws-001
+status: experimental
+description: Detects failed AWS console logins followed by successful login and access key creation.
+logsource:
+  product: aws
+  service: cloudtrail
+detection:
+  failed_login:
+    eventName: ConsoleLogin
+    responseElements.ConsoleLogin: Failure
+  successful_login:
+    eventName: ConsoleLogin
+    responseElements.ConsoleLogin: Success
+  access_key:
+    eventName: CreateAccessKey
+  condition: failed_login and successful_login and access_key
+fields:
+  - eventTime
+  - sourceIPAddress
+  - userIdentity.arn
+  - eventName
+level: critical
+tags:
+  - attack.initial_access
+  - attack.credential_access
+  - attack.persistence
+  - attack.t1110
+  - attack.t1078
+  - attack.t1098
